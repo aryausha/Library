@@ -25,7 +25,7 @@
         </ul>
       </nav>
       
-      
+      <div class="footer fixed-bottom">
       <div class="container">
           
           <div class="row">
@@ -42,12 +42,8 @@
 
 
       </div>
-      <footer class="page-footer font-smallblue">       
-          <div class="footer-copyright text-centerpy-3">
-            <p class="textstyle">linklibrary@gmail.com</p>
-
-          </div>        
-      </footer>
+    </div>
+    
     
 </body>
 </html>
