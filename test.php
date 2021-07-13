@@ -13,13 +13,13 @@
     <nav class="navbar navbar-expand-sm bg-light navbar-light">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="intro.html">Intro</a>
+            <a class="nav-link" href="intro.php">Intro</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="index.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="test.html">Contact</a>
+            <a class="nav-link" href="test.php">Contact</a>
           </li>
           
         </ul>
