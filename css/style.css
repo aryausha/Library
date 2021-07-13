@@ -2,3 +2,16 @@
 {
     background: url("../images/photo-1507842217343-583bb7270b66 (1).jpeg");
 }
+.textstyle
+{
+    color: red;
+    font-size: 25px;
+    
+
+}
+.textstyle:hover
+{
+    color: royalblue;
+    font-size: 50px;
+    font-style:oblique;
+}
