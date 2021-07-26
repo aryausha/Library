@@ -31,28 +31,28 @@
                 <table class="table table-borderless">
                     <tr>
                         <td style="color:rgb(255, 238, 0);">BOOKNAME</td>
-                        <td><input type="text" class="form-control"></td>
+                        <td><input type="text" id="bname" class="form-control"></td>
                     </tr>
                     <tr>
                         <td style="color:rgb(255, 238, 0);">AUTHORNAME</td>
-                        <td><input type="text" class="form-control"></td>
+                        <td><input type="text" id="aname" class="form-control"></td>
                     </tr>
                     <tr>
                         <td style="color:rgb(255, 238, 0);">DISTRIBUTOR</td>
-                        <td><input type="text" class="form-control"></td>
+                        <td><input type="text" id="dist" class="form-control"></td>
                     </tr>
                     <tr>
                         <td style="color:rgb(255, 238, 0);">PUBLISHER</td>
-                        <td><input type="text" class="form-control"></td>
+                        <td><input type="text" id="pub" class="form-control"></td>
                     </tr>
                     <tr>
                         <td style="color:rgb(255, 238, 0);">MRP</td>
-                        <td><input type="text" class="form-control"></td>
+                        <td><input type="text" id="mrp" class="form-control"></td>
                     </tr>
                     
                     <tr>
                         <td></td>
-                        <td><button class="btn btn-secondary">SUBMIT</button></td>
+                        <td><button onclick="index()" class="btn btn-secondary">SUBMIT</button></td>
                     </tr>
             
             
@@ -71,6 +71,30 @@
 
 
       </div>
+      <script>
+        function index()
+        {
+          var bookname=document.getElementById("bname").value
+          var authorname=document.getElementById("aname").value
+          var distributer=document.getElementById("dist").value
+          var publisher=document.getElementById("pub").value
+          var MRP=document.getElementById("mrp").value
+
+
+          console.log(bookname)
+          console.log(authorname)
+          console.log(distributer)
+          console.log(publisher)
+          console.log(MRP)
+
+
+
+
+        }
+
+
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
    
 </body>
 </html>

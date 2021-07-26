@@ -63,19 +63,19 @@
                 <table class="table table-borderless">
                     <tr>
                         <td style="color: brown;" >USERNAME</td>
-                        <td><input type="text" class="formcontrol" required></td>
+                        <td><input type="text" id="uname" class="formcontrol" required></td>
                     </tr>
                     <tr>
                         <td style="color: brown;">PASSWORD</td>
-                        <td><input type="password" class="formcontrol" required></td>
+                        <td><input type="password" id="pass" class="formcontrol" required></td>
                     </tr>
                     <tr>
                         <td style="color: brown;">FORGOT PASSWORD</td>
-                        <td><input type="text" class="formcontrol" required></td>
+                        <td><input type="password" id="fpass" class="formcontrol" required></td>
                     </tr>
                     <tr>
                         <td></td>
-                        <td><button class="btn btn-primary">LOGIN</button></td>
+                        <td><button onclick="intro()" class="btn btn-primary">LOGIN</button></td>
                     </tr>
 
 
@@ -91,6 +91,24 @@
             <div class="col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"></div>
         </div>
       </div>
+      <script>
+        function intro()
+        {
+          var username=document.getElementById("uname").value
+          var password=document.getElementById("pass").value
+          var forgotpass=document.getElementById("fpass").value
+
+          console.log(username)
+          console.log(password)
+          console.log(forgotpass)
+
+
+
+
+        }
+
+
+      </script>
    
    
    
